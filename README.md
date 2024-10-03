@@ -13,7 +13,7 @@ The **Flight Quality Analysis** project is a .NET 7.0 Web API that reads flight 
 - Identify inconsistent airport transitions for the same aircraft.
 - Detect flights with unrealistic turnaround times.
 - Ensure flights are in logical time sequence (no arrivals before departure).
-- Handle repeated `AircraftRegistrationNumber` and `FlightNumber` appropriately for real-world scenarios.
+- Handle repeated aircraft registration numbers and flight numbers appropriately for real-world scenarios.
 
 ---
 
