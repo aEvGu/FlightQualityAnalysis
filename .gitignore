@@ -1,0 +1,20 @@
+# Ignore build outputs
+bin/
+obj/
+publish/
+
+# Ignore user-specific files
+*.user
+*.rsuser
+*.suo
+
+# Ignore packages
+*.nuget
+
+# Ignore JetBrains Rider and ReSharper files
+.idea/
+*.sln.DotSettings.user
+
+# Ignore Visual Studio specific files
+.vscode/
+.vs/
