@@ -53,9 +53,12 @@ dotnet run
 The API should be running at https://localhost:5118.
 
 ### API Endpoints
-Base URL: /api/flight
+Base URL: //api/flight
 GET	/all	(Get all flight data)
 GET	/check-inconsistencies	(Check for inconsistencies (missing data, unrealistic turnaround, inconsistent time sequences, and airport transitions))
+
+curl -X GET "http://localhost:5118/api/flight/all"
+curl -X GET "http://localhost:5118/api/flight/check-inconsistencies"
 
 ### Testing
 
